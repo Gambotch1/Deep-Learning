@@ -6,16 +6,16 @@ Dependencies besides PyTorch should be installed when running the `pyproject.tom
 You only need to explain how to run this on your system (pool computer, private laptop etc.) with your specific OS (e.g. Windows, Ubuntu, MacOS).
 
 ## 1. Create venv, virtualenv or conda env
-![alt text](https://github.com/Gambotch1/markdown-here/raw/master/images/1 "Create venv")
+![alt text](/images/1.png)
 
 ## 2. Activate venv or virtualenv
-![alt text](https://github.com/Gambotch1/markdown-here/raw/master/images/2 "Activate venv")
+![alt text](/images/2.png)
 
 ## 3. Install project in editable mode
-![alt text](https://github.com/Gambotch1/markdown-here/raw/master/images/3 "Install project in editable mode")
+![alt text](/images/3.png)
 
 ## 4. Install missing hardware-specific dependencies (PyTorch)
-![alt text](https://github.com/Gambotch1/markdown-here/raw/master/images/4 "Install missing hardware-specific dependencies")
+![alt text](/images/4.png)
 
 ## 5. Git commiting with the command line interface
 
