@@ -19,5 +19,6 @@ classifiers = [
 dependencies = [
     "matplotlib",
     "pytest",
-    "tqdm"
+    "tqdm",
+    "pandas"
 ]
