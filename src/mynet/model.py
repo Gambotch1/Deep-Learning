@@ -1,20 +1,21 @@
 import torch.nn as nn
+import torch
 
 class ThreeLayerFullyConnectedNetwork(nn.Module):
 
     def __init__(self):
         super(ThreeLayerFullyConnectedNetwork, self).__init__()
-        #Flatten the input images
         self.flatten = nn.Flatten()
-        self.linear_relu_stack = nn.Sequential(
-            nn.Linear(input_size, 32),
-            nn.ReLU(),
-            nn.Linear(32, 64),
-            nn.ReLU(),
-            nn.Linear(64, 10),
-        )
+        self.relu = nn.ReLU()
+        self.linear_1 = nn.Linear(784, 32)
+        self.linear_2 = nn.Linear(32, 64)
+        self.linear_3 = nn.Linear(64, 10)
 
     def forward(self, x):
         x = self.flatten(x)
-        logits = self.linear_relu_stack(x)
-        return logits
+        x = self.linear_1(x)
+        x = self.relu(x)
+        x = self.linear_2(x)
+        x = self.relu(x)
+        x = self.linear_3(x)
+        return x
