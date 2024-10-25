@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "dlcv"
 version = "0.0.1"
 authors = [
-  { name="Arno Nhym", email="arno.nhym@uni-weimar.de" },
+  { name="Omar Ghariani", email="omar.ghariani@uni-weimar.de" },
 ]
 description = "First DLCV example package"
 readme = "README.md"
