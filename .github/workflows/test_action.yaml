@@ -23,7 +23,7 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -e .
           python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-          python src/mynet/utils.py data
+          python src/utils/utils.py data
       - name: Test dataset implementation
         if: success() || failure()
         run: |
