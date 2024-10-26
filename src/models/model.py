@@ -7,7 +7,7 @@ class ThreeLayerFullyConnectedNetwork(nn.Module):
         super(ThreeLayerFullyConnectedNetwork, self).__init__()
         self.flatten = nn.Flatten()
         self.relu = nn.ReLU()
-        self.linear_1 = nn.Linear(784, 32)
+        self.linear_1 = nn.Linear(28**2, 32)
         self.linear_2 = nn.Linear(32, 64)
         self.linear_3 = nn.Linear(64, 10)
 
