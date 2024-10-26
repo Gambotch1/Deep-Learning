@@ -23,5 +23,6 @@ dependencies = [
     "pandas",
     "torch",
     "torchvision",
-    
+    "PIL",
+
 ]
