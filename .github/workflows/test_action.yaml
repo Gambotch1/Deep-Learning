@@ -27,20 +27,20 @@ jobs:
       - name: Test dataset implementation
         if: success() || failure()
         run: |
-          pytest tests/test_dataset.py
+          pytest src/tests/test_dataset.py
       - name: Test network implementation
         if: success() || failure()
         run: |
-          pytest tests/test_network.py
+          pytest src/tests/test_network.py
       - name: Test train one epoch
         if: success() || failure()
         run: |
-          pytest tests/test_train_one_epoch.py
+          pytest src/tests/test_train_one_epoch.py
       - name: Test evaluate one epoch
         if: success() || failure()
         run: |
-          pytest tests/test_evaluate_one_epoch.py
+          pytest src/tests/test_evaluate_one_epoch.py
       - name: Test train and evaluate model
         if: success() || failure()
         run: |
-          pytest tests/test_train_and_evaluate_model.py
+          pytest src/tests/test_train_and_evaluate_model.py
