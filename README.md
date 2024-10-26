@@ -13,7 +13,8 @@ This repository provides implementations of neural network models for deep learn
 ### Prerequisites
 - Python 38+
 - `pip` for managing Python packages
-- 
+
+
 ## Setting ip the Project
 1. Clone the Repository
 ```
